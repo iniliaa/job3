@@ -13,9 +13,11 @@ if (isset($_SESSION['nama']) && isset($_SESSION['no_telp'])) {
 
 // Inisialisasi harga produk
 $harga_produk = array(
-    'sepatu' => 50000,
-    'baju' => 30000,
-    'topi' => 15000,
+    'facewash daviena' => 65000,
+    'toner daviena' => 65000,
+    'serum gold daviena' => 70000,
+    'daycream daviena' => 65000,
+    'nightcream daviena' => 65000,
     // Tambahkan harga produk lain jika diperlukan
 );
 
@@ -72,7 +74,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     <title>Pembelian Produk</title>
     <style>
         body {
-            background-color: pink;
+            background-color: blue;
         }
         .card {
             margin: auto;
@@ -133,15 +135,23 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     <div class="checkout">
     <form method="get" action="pembelian_produk.php">
     <label>
-        <input type="checkbox" name="produk[]" value="sepatu"> Sepatu - Rp 50.000
+        <input type="checkbox" name="produk[]" value="facewash"> Facewash Daviena - Rp 65.000
         <input type="number" name="jumlah_sepatu" value="1" min="1">
     </label><br>
     <label>
-        <input type="checkbox" name="produk[]" value="baju"> Baju - Rp 30.000
+        <input type="checkbox" name="produk[]" value="toner"> Toner Daviena - Rp 65.000
         <input type="number" name="jumlah_baju" value="1" min="1">
     </label><br>
     <label>
-        <input type="checkbox" name="produk[]" value="topi"> Topi - Rp 15.000
+        <input type="checkbox" name="produk[]" value="topi"> Serum Gold Daviena - Rp 70.000
+        <input type="number" name="jumlah_topi" value="1" min="1">
+    </label><br>
+    <label>
+        <input type="checkbox" name="produk[]" value="daycream"> Daycream Daviena - Rp 65.000
+        <input type="number" name="jumlah_topi" value="1" min="1">
+    </label><br>
+    <label>
+        <input type="checkbox" name="produk[]" value="nightcream"> Nightcream Daviena - Rp 65.000
         <input type="number" name="jumlah_topi" value="1" min="1">
     </label><br>
     <!-- Tambahkan checkbox dan input jumlah untuk produk lain jika diperlukan -->
