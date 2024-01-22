@@ -135,23 +135,23 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     <div class="checkout">
     <form method="get" action="pembelian_produk.php">
     <label>
-        <input type="checkbox" name="produk[]" value="facewash"> Facewash Daviena - Rp 65.000
+        <input type="checkbox" name="produk[]" value="facewash daviena"> Facewash Daviena - Rp 65.000
         <input type="number" name="jumlah_sepatu" value="1" min="1">
     </label><br>
     <label>
-        <input type="checkbox" name="produk[]" value="toner"> Toner Daviena - Rp 65.000
+        <input type="checkbox" name="produk[]" value="toner daviena"> Toner Daviena - Rp 65.000
         <input type="number" name="jumlah_baju" value="1" min="1">
     </label><br>
     <label>
-        <input type="checkbox" name="produk[]" value="topi"> Serum Gold Daviena - Rp 70.000
+        <input type="checkbox" name="produk[]" value="serum gold daviena"> Serum Gold Daviena - Rp 70.000
         <input type="number" name="jumlah_topi" value="1" min="1">
     </label><br>
     <label>
-        <input type="checkbox" name="produk[]" value="daycream"> Daycream Daviena - Rp 65.000
+        <input type="checkbox" name="produk[]" value="daycream daviena"> Daycream Daviena - Rp 65.000
         <input type="number" name="jumlah_topi" value="1" min="1">
     </label><br>
     <label>
-        <input type="checkbox" name="produk[]" value="nightcream"> Nightcream Daviena - Rp 65.000
+        <input type="checkbox" name="produk[]" value="nightcream daviena"> Nightcream Daviena - Rp 65.000
         <input type="number" name="jumlah_topi" value="1" min="1">
     </label><br>
     <!-- Tambahkan checkbox dan input jumlah untuk produk lain jika diperlukan -->
